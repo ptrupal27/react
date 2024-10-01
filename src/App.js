@@ -1,12 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
-import Component1 from './comonent/Component1';
-import Company from './comonent/emp.js/com-fun';
+
+import Company from './props/com-fun';
 import ComponentClass from './comonent/class-component/ComponentClass';
 import EventComponent from './event/EventComponent';
-import StateHookComponent from './comonent/hook/Statehook';
-import Useeffecthook from './comonent/hook/Useeffecthook';
+import StateHookComponent from './hook/Statehook';
+import Useeffecthook from './hook/Useeffecthook';
+import Component1 from './comonent/function_component/Component1';
+import Userefhook from './hook/userefhook';
+import ListAndKeysComponent from './list_and_keys/ListAndKeysComponent';
+import Form from './form/Form';
+import SimpleFormValidation from './form/SimpleFormValidation';
+import StyleComponent from './style/StyleComponent';
+import LiftingStateParent from './lifting-stateup/perent'
+
 
 
 
@@ -16,12 +24,19 @@ import Useeffecthook from './comonent/hook/Useeffecthook';
 function App() {
   return (
     <>
-      {/* // <Component1 /> */}
+      {/* <Component1 /> */}
       {/* // <Company /> */}
       {/* //<ComponentClass /> */}
       {/* <EventComponent /> */}
       {/* <StateHookComponent /> */}
-      <Useeffecthook />
+      {/* <Useeffecthook /> */}
+      {/* <Userefhook /> */}
+      {/* <ListAndKeysComponent /> */}
+      {/* <Form /> */}
+      {/* <SimpleFormValidation /> */}
+      {/* <StyleComponent />  */}
+      {/* <handleClick /> */}
+      <LiftingStateParent />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import Empfun from "./empfun";
+import Empfun from "./Empfun";
 
 export default function Company() {
     return (

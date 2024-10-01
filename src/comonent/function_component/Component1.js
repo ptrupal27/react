@@ -1,7 +1,6 @@
-import { Component } from "react";
 import Component2 from "./Component2";
 import Component5 from "./Component5";
-import ComponentClass from "./class-component/ComponentClass";
+import ComponentClass from "../class-component/ComponentClass";
 
 function Component1() {
 
